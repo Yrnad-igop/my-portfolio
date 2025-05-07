@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>My Portfolio | Danry C. Calixtro</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    
+      <div id="Header">
+        <div class=" container">
+          <nav>
+            <!-- From Uiverse.io by ZacharyCrespin --> 
+                    <div class="loader">
+             <div class="loader-square"></div>
+              <div class="loader-square"></div>
+              <div class="loader-square"></div>
+              <div class="loader-square"></div>
+            <div class="loader-square"></div>
+              <div class="loader-square"></div>
+               <div class="loader-square"></div>
+  </div>
+     
+     <!-- Navigation Menu -->
+<nav>
+  <ul>
+    <li><a href="#Header" class="nav-link">Home</a></li>
+    <li><a href="#about" class="nav-link">About Me</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#resume" class="nav-link">Resume</a></li>
+    <li><a href="#social-media" class="nav-link">Social Media</a></li>
+  
+  </ul>
+</nav>
+          </nav>
+  <div class="header-text">
+  <h1>Hi, I am <span>Danry C. Calixtro</span><br> a second-year Information Technology student at STI Alaminos</h1>
+</div>  
+        </div>
+      </div>
+     <div id="about">
+       
+    <div class="container">
+
+        <div class="row">
+           <div class="about-col-1">  
+           <img src="C:\Users\jayja\Pictures\1729260151116.jpg">
+           
+           </div>
+           <div class="about-col-1"> 
+           <h1 class=" sub-title"> About me </h1>
+           <p>Hello! I'm Danry C. Calixtro, a second-year Information Technology student at <strong>STI Alaminos</strong>. I am a dedicated and detail-oriented individual currently pursuing an Information Technology Program. With a strong foundation in programming, software development, and user interface design, I am passionate about creating innovative and functional digital solutions. I approach every project with a commitment to quality, continuous improvement, and collaboration. My goal is to apply my skills to real-world challenges, contribute effectively to team objectives, and grow as a professional in the tech industry.</p>
+
+          <!-- Tab Titles -->
+          <div class="tab-titles">
+            <p class="tab-Links active-Links" onclick="opentab('Skills', this)">Skills</p>
+        </div>
+
+<!-- Skills Tab Content -->
+<div class="tab-contents active-tab" id="Skills">
+  <h2>Skills Background</h2>
+  <ul class="skills-list">
+    <li>
+      <strong>Software Development</strong><br>
+      I have developed multiple Windows Forms Applications using C#, where I implemented CRUD functionalities, search features, custom validations, and user-friendly interfaces. I am also developing proficiency in Android development using Java, allowing me to create simple yet functional mobile applications for various purposes.
+    </li>
+    <li>
+      <strong>Database Management</strong><br>
+      I have worked with both MySQL and SQL Server, designing and managing databases to support desktop and web applications. My experience includes writing optimized SQL queries, designing relational database schemas, and ensuring data integrity and security through proper indexing and normalization techniques.
+    </li>
+    <li>
+      <strong>Photoshop</strong><br>
+      Skilled in editing images, creating digital posters, and UI mockups for projects. Used for both academic and extracurricular activities.
+    </li>
+    <li>
+      <strong>Programming Languages</strong><br>
+      I have a solid understanding of various programming languages including Java, Python, C#, and JavaScript. These languages have been the foundation of many of my academic and personal projects, ranging from simple console-based applications to more complex GUI and web-based systems. I am comfortable writing clean, efficient, and well-documented code while following industry standards and best practices.
+    </li>
+    <li>
+      <strong>Video Editing</strong><br>
+      Capable of editing content using tools like CapCut or Adobe Premiere Pro. Created school video presentations and short promotional clips.
+    </li>
+  </ul>
+</div>
+           </div>
+        </div>
+    </div>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <img src="C:\Users\jayja\Desktop\Calixtro Portfolio\Screenshot 2025-05-07 231809.png" alt="Diamond Memory Match Game">
+          <h3>Diamond Memory Match Game</h3>
+          <p>An Android game built using Java and XML, designed with a unique diamond layout for memory match gameplay.</p>
+        </div>
+        <div class="project-card">
+          <img src="C:\Users\jayja\Desktop\Calixtro Portfolio\Screenshot 2025-05-07 231424.png" alt="Medicine Inventory Dashboard">
+          <h3>Medicine Inventory Dashboard</h3>
+          <p>Windows Forms application to manage medical supplies for senior citizens and pregnant women.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume-section">
+      <div class="resume-box">
+        <h2 class="sub-title">Resume</h2>
+        <div class="resume-buttons">
+          <a href="C:\Users\jayja\Desktop\Calixtro Portfolio\danry resume.pdf" download class="btn">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      function opentab(tabName, element) {
+        const tabLinks = document.querySelectorAll(".tab-Links");
+        const tabContents = document.querySelectorAll(".tab-contents");
+    
+        tabLinks.forEach(link => link.classList.remove("active-Link"));
+        tabContents.forEach(tab => tab.classList.remove("active-tab"));
+    
+        element.classList.add("active-Link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+
+
+<!-- Contact Columns -->
+<div class="contact-columns">
+  <!-- Email Column -->
+  <div class="contact-col">
+
+    <i class="fas fa-envelope fa-2x"></i>
+    <h2>Email</h2>
+    <p>
+      <a href="mailto:jayjayabella56@gmail.com" class="contact-link" aria-label="Send email to jayjayabella56@gmail.com">
+        jayjayabella56@gmail.com
+      </a>
+    </p>
+    <a href="mailto:jayjayabella56@gmail.com" class="btn" aria-label="Send email">Send Email</a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jayjayabella56@gmail.com" target="_blank" class="btn" aria-label="Open email in Gmail" style="margin-top: 10px;">
+      Open in Gmail
+    </a>
+  </div>
+
+<div class="contact-col">
+  <i class="fas fa-phone fa-2x" aria-hidden="true"></i>
+  <h2>Phone</h2>
+  <p>
+    <a href="tel:+639467590904"
+       class="contact-link"
+       aria-label="Call phone number +63 9467590904">
+      +63 9467590904
+    </a>
+  </p>
+  <div class="btn-group">
+    <a href="tel:+639467590904"
+       class="btn"
+       aria-label="Call me at +63 9467590904">
+      📞 Call Me
+    </a>
+    <a href="https://wa.me/639467590904"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn"
+       aria-label="Send a message on WhatsApp to +63 9467590904">
+      💬 Message on WhatsApp
+    </a>
+  </div>
+</div>
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+
+<!-- Social Media Section -->
+<section id="social-media">
+  <div class="container">
+    <h2>Follow Me</h2>
+    <p>Stay connected with me on social media:</p>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/16dPsmiXrP/" target="_blank" class="social-icon facebook" aria-label="Facebook Profile">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/yrnad_21?igsh=MXYzN3h0Mjh2ZDNmYg==" target="_blank" class="social-icon instagram" aria-label="Instagram Profile">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/danry-calixtro-708b87333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon linkedin" aria-label="LinkedIn Profile">
+        <i class="fab fa-linkedin-in"></i>
+      </a>  
+      <a href="https://github.com/Yrnad-igop" target="_blank" class="social-icon github" aria-label="GitHub Profile">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.tiktok.com/@danrycalixtro7?_t=ZS-8w6lNKgGwcO&_r=1" target="_blank" class="social-icon tiktok" aria-label="TikTok Profile">
+        <i class="fab fa-tiktok"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Footer -->
+<div id="footer">
+  <div class="container">
+    <p>&copy; 2025 | Danry C. Calixtro | All Rights Reserved</p>
+
+    
+  <!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top-btn" aria-label="Back to top">
+  <span class="back-to-top-text">Back to Top</span> 
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="back-to-top-icon">
+      <path d="M12 19V6M5 13l7-7 7 7"/>
+  </svg>
+</button>
+
+
+
+<style>
+ /* Back to Top Button Styles */
+.back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: linear-gradient(145deg, #2e2e2e, #1c1c1c);
+    color: #ddd;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 50%;
+    font-size: 16px;
+    opacity: 0;
+    transition: 
+        opacity 0.5s ease, 
+        transform 0.3s ease, 
+        background 0.3s ease, 
+        box-shadow 0.3s ease;
+    box-shadow: 
+        8px 8px 15px rgba(0, 0, 0, 0.4),
+        -4px -4px 10px rgba(255, 255, 255, 0.05);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.back-to-top-btn.show {
+    display: block;
+    opacity: 1;
+}
+
+/* Hover state with 3D transformation */
+.back-to-top-btn:hover {
+    background: linear-gradient(145deg, #3a3a3a, #1a1a1a);
+    color: #fff;
+    transform: translateY(-6px) rotateX(8deg) rotateY(-8deg) scale(1.1);
+    box-shadow: 
+        12px 12px 25px rgba(0, 0, 0, 0.5),
+        -5px -5px 10px rgba(255, 255, 255, 0.08);
+}
+
+/* Active state when clicked (press effect) */
+.back-to-top-btn:active {
+    transform: scale(0.95) translateY(2px) rotateX(4deg);
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Text and icon styles */
+.back-to-top-text {
+    display: inline-block;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.back-to-top-icon {
+    fill: #ddd;
+    transition: transform 0.3s ease;
+}
+
+/* Hover state for icon with slight 3D effect */
+.back-to-top-btn:hover .back-to-top-icon {
+    transform: translateY(-3px);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 600px) {
+    .back-to-top-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .back-to-top-text {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .back-to-top-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+</style>
+
+<script>
+ // Get the button
+let backToTopBtn = document.getElementById("backToTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.classList.add("show");
+    } else {
+        backToTopBtn.classList.remove("show");
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+backToTopBtn.addEventListener("click", function() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+});
+
+</script>
+  
+</div>
+
+
+  </body>
+</html>
